@@ -73,7 +73,7 @@ def generate_ddl():
         # PK定義の行作成
         if pk_columns:
             pk_columns = ",".join(pk_columns)
-            pk_def_row = f"\n,PRIMARY_KEY({pk_columns})\n);"
+            pk_def_row = f"\n,PRIMARY KEY({pk_columns})\n);"
         else:
             pk_def_row = "\n);"
 
