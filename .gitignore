@@ -1,0 +1,3 @@
+.venv
+lambda/scraper/config.ini
+lambda/scraper/output/wave_report.csv
