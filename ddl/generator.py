@@ -51,7 +51,7 @@ def generate_ddl():
         schema = table_info_dict["schema"]
         columns = table_info_dict["columns"]
         # create tableの行作成
-        create_table_row = f"CREATE TABLE {db}.{schema}.{table}(\n"
+        create_table_row = f"CREATE TABLE {schema}.{table}(\n"
         # column定義の行作成
         column_def_rows = []
         pk_columns = []
